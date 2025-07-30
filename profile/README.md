@@ -12,7 +12,7 @@ Inspired by space operas, it offers an independent alternative to major titles i
 ## 🚀 The pitch
 
 In 2425, the Agora system is living its final moments.  
-Its star, Aegir, threatens to explode.  
+Its star, Agora, threatens to explode.  
 You have fled.  
 Without status. Without past.  
 But alive.  
