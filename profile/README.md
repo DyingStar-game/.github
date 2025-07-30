@@ -4,6 +4,8 @@
   <img src="https://avatars.githubusercontent.com/u/223138745?s=200&v=4" alt="Star Deception Logo" width="200"/>
 </div>
 
+[Website](https://stardeception.com) *(coming soon)*
+
 **Star Deception** is an **open source** immersive, community-driven **spatial MMO** game project.  
 Inspired by space operas, it offers an independent alternative to major titles in the genre, built by and for enthusiasts.
 
@@ -74,6 +76,7 @@ Fork. Contribute. Let's dream big. Together.
 
 ## 📚 Useful links
 
+- 🌐 [Website](https://stardeception.com) *(coming soon)*
 - 💬 [Community Discord](https://discord.gg/YKKTZtuN)
 - 📂 [Technical documentation](#) *(coming soon)*
 - 📦 [Available repositories](https://github.com/orgs/StarDeception/repositories)
