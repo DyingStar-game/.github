@@ -80,7 +80,7 @@ Fork. Contribute. Let's dream big. Together.
 - 💬 [Community Discord](https://discord.gg/YKKTZtuN)
 - 📂 [Technical documentation](#) *(coming soon)*
 - 📦 [Available repositories](https://github.com/orgs/StarDeception/repositories)
-- 🧠 [Universe wiki](#) *(coming soon)*
+- 🧠 [Universe wiki](https://wiki.stardeception.com/)
 - 🗺️ [Roadmap](#) *(coming soon)*
 
 ---
