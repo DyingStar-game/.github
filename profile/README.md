@@ -1,12 +1,12 @@
-# 🌌 Star Deception
+# 🌌 Dying Star
 
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/223138745?s=200&v=4" alt="Star Deception Logo" width="200"/>
 </div>
 
-[Website](https://stardeception.com) *(coming soon)*
+[Website](https://dyingstar-game.com) *(coming soon)*
 
-**Star Deception** is an **open source** immersive, community-driven **spatial MMO** game project.  
+**Dying Star** is an **open source** immersive, community-driven **spatial MMO** game project.  
 Inspired by space operas, it offers an independent alternative to major titles in the genre, built by and for enthusiasts.
 
 ---
@@ -69,20 +69,20 @@ You are:
 
 👉 **Welcome.**
 
-Star Deception is an open adventure.  
+Dying Star is an open adventure.  
 Fork. Contribute. Let's dream big. Together.
 
 ---
 
 ## 📚 Useful links
 
-- 🌐 [Website](https://stardeception.com) *(coming soon)*
+- 🌐 [Website](https://dyingstar-game.com) *(coming soon)*
 - 💬 [Community Discord](https://discord.gg/YKKTZtuN)
 - 📂 [Technical documentation](#) *(coming soon)*
-- 📦 [Available repositories](https://github.com/orgs/StarDeception/repositories)
+- 📦 [Available repositories](https://github.com/orgs/DyingStar-game/repositories)
 - 🧠 [Universe wiki](https://wiki.stardeception.com/)
 - 🗺️ [Roadmap](#) *(coming soon)*
 
 ---
 
-> **Star Deception** — a free space opera, built together, among the stars.
+> **Dying Star** — a free space opera, built together, among the stars.
