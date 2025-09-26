@@ -77,7 +77,7 @@ Fork. Contribute. Let's dream big. Together.
 ## 📚 Useful links
 
 - 🌐 [Website](https://dyingstar-game.com) *(coming soon)*
-- 💬 [Community Discord](https://discord.gg/YKKTZtuN)
+- 💬 [Community Discord](https://discord.gg/K4a2mwwBAM)
 - 📂 [Technical documentation](#) *(coming soon)*
 - 📦 [Available repositories](https://github.com/orgs/DyingStar-game/repositories)
 - 🧠 [Universe wiki](https://wiki.stardeception.com/)
