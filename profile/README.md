@@ -80,7 +80,7 @@ Fork. Contribute. Let's dream big. Together.
 - 💬 [Community Discord](https://discord.gg/K4a2mwwBAM)
 - 📂 [Technical documentation](#) *(coming soon)*
 - 📦 [Available repositories](https://github.com/orgs/DyingStar-game/repositories)
-- 🧠 [Universe wiki]([https://wiki.stardeception.com/](https://wiki.stardeception.com/share/5vf84esmdi/p/dying-star-wiki-oma1UdCMRB)
+- 🧠 [Universe wiki](https://wiki.stardeception.com/share/5vf84esmdi/p/dying-star-wiki-oma1UdCMRB)
 - 🗺️ [Roadmap](#) *(coming soon)*
 
 ---
