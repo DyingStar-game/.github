@@ -4,7 +4,7 @@
   <img src="https://avatars.githubusercontent.com/u/223138745?s=200&v=4" alt="Star Deception Logo" width="200"/>
 </div>
 
-[Website](https://dyingstar-game.com) *(coming soon)*
+[Website](https://dyingstar-game.com)
 
 **Dying Star** is an **open source** immersive, community-driven **spatial MMO** game project.  
 Inspired by space operas, it offers an independent alternative to major titles in the genre, built by and for enthusiasts.
@@ -76,7 +76,7 @@ Fork. Contribute. Let's dream big. Together.
 
 ## 📚 Useful links
 
-- 🌐 [Website](https://dyingstar-game.com) *(coming soon)*
+- 🌐 [Website](https://dyingstar-game.com)
 - 💬 [Community Discord](https://discord.gg/K4a2mwwBAM)
 - 📂 [Technical documentation](#) *(coming soon)*
 - 📦 [Available repositories](https://github.com/orgs/DyingStar-game/repositories)
