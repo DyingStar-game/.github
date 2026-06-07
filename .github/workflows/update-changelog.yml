@@ -1,0 +1,66 @@
+name: Update Changelog
+
+on:
+  workflow_call:
+    inputs:
+      component:
+        description: "Component key (e.g. DyingStar, services/monitoring)"
+        required: true
+        type: string
+      entry_en:
+        description: "English changelog entry (may be multi-line)"
+        required: true
+        type: string
+      entry_fr:
+        description: "French changelog entry (optional, falls back to EN if empty)"
+        required: false
+        type: string
+        default: ""
+      pr_number:
+        description: "PR number, used in the commit message"
+        required: false
+        type: string
+        default: ""
+      repo:
+        description: "Source repository name (owner/repo), used in the commit message"
+        required: false
+        type: string
+        default: ""
+    secrets:
+      APP_ID:
+        required: true
+      APP_PRIVATE_KEY:
+        required: true
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: DyingStar-game
+          repositories: changelog
+
+      - name: Send repository_dispatch to changelog repo
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          COMPONENT: ${{ inputs.component }}
+          ENTRY_EN: ${{ inputs.entry_en }}
+          ENTRY_FR: ${{ inputs.entry_fr }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+          REPO: ${{ inputs.repo }}
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/DyingStar-game/changelog/dispatches \
+            --field event_type=pr-merged \
+            --field "client_payload[component]=$COMPONENT" \
+            --field "client_payload[entry_en]=$ENTRY_EN" \
+            --field "client_payload[entry_fr]=$ENTRY_FR" \
+            --field "client_payload[pr_number]=$PR_NUMBER" \
+            --field "client_payload[repo]=$REPO"
