@@ -60,7 +60,7 @@ jobs:
             /repos/DyingStar-game/changelog/dispatches \
             --field event_type=pr-merged \
             --field "client_payload[component]=$COMPONENT" \
-            --field "client_payload[entry_en]=$ENTRY_EN" \
-            --field "client_payload[entry_fr]=$ENTRY_FR" \
+            --raw-field "client_payload[entry_en]=$ENTRY_EN" \
+            --raw-field "client_payload[entry_fr]=$ENTRY_FR" \
             --field "client_payload[pr_number]=$PR_NUMBER" \
             --field "client_payload[repo]=$REPO"
